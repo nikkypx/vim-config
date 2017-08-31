@@ -69,7 +69,6 @@ else
   Plugin 'ervandew/supertab'
   Plugin 'nertzy/j-split'
   Plugin 'matt-royal/diffthese'
-  Plugin 'camelcasemotion'
   Plugin 'nertzy/edit-plus'
   Plugin 'brysgo/quickfixfix'
   Plugin 'Lokaltog/vim-easymotion'
@@ -99,7 +98,7 @@ else
   Plugin 'epmatsw/ag.vim'
   Plugin 'tpope/vim-abolish'
   Plugin 'henrik/vim-qargs'
-  Plugin 'kien/ctrlp.vim'
+  " Plugin 'kien/ctrlp.vim'
 
   "
   " Navigation
@@ -113,26 +112,9 @@ else
   Plugin 'vim-ruby/vim-ruby'
   Plugin 'pangloss/vim-javascript'
   Plugin 'plasticboy/vim-markdown'
-  Plugin 'slim-template/vim-slim'
-  Plugin 'nono/vim-handlebars'
-  Plugin 'kchmck/vim-coffee-script'
-  Plugin 'tpope/vim-haml'
-  Plugin 'tpope/vim-cucumber'
-  Plugin 'quentindecock/vim-cucumber-align-pipes'
-  Plugin 'juvenn/mustache.vim'
-  Plugin 'fatih/vim-go'
-  Plugin 'rosstimson/scala-vim-support'
   Plugin 'guns/vim-clojure-static'
-  Plugin 'chrisbra/csv.vim'
   Plugin 'elzr/vim-json'
-  Plugin 'briancollins/vim-jst'
-  Plugin 'digitaltoad/vim-jade'
-  Plugin 'mxw/vim-jsx'
-  Plugin 'lambdatoast/elm.vim'
   Plugin 'leafgarland/typescript-vim'
-  Plugin 'digitaltoad/vim-pug'
-  Plugin 'elixir-lang/vim-elixir'
-  Plugin 'luan/vim-concourse'
 
   "
   " Development Tool Integration
@@ -141,10 +123,6 @@ else
   Plugin 'airblade/vim-gitgutter'
   Plugin 'pivotal/tmux-config'
   Plugin 'tpope/vim-dispatch'
-  Plugin 'carlobaldassi/ConqueTerm'
-  Plugin 'sjl/vitality.vim'
-  Plugin 'brysgo/test_server'
-  Plugin 'mdelillo/vim-simple-bdd'
 
   call vundle#end()
 
