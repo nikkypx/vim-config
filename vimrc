@@ -29,62 +29,31 @@ else
   "
   " Colorschemes
   "
-  Plugin 'tpope/vim-vividchalk'
-  Plugin 'chriskempson/base16-vim'
-  Plugin 'molokai'
-  Plugin 'altercation/vim-colors-solarized'
-  Plugin 'wgibbs/vim-irblack'
-  Plugin 'chriskempson/vim-tomorrow-theme'
-  Plugin 'candycode.vim'
-  Plugin 'Colour-Sampler-Pack'
   Plugin 'flazz/vim-colorschemes'
 
   "
   " Ruby / Rails
   "
-  Plugin 'tpope/vim-rails'
   Plugin 'tpope/vim-endwise'
-  Plugin 'ecomba/vim-ruby-refactoring'
-  Plugin 'nelstrom/vim-textobj-rubyblock'
-  Plugin 'jgdavey/vim-blockle'
-  Plugin 'tpope/vim-rbenv'
+  Plugin 'tpope/vim-rails'
   Plugin 'tpope/vim-rake'
+  Plugin 'tpope/vim-rbenv'
 
   "
   " General Editing
   "
+  Plugin 'easymotion/vim-easymotion'
+  Plugin 'brysgo/quickfixfix'
+  Plugin 'godlygeek/tabular'
+  Plugin 'regreplop.vim'
+  Plugin 'scrooloose/syntastic'
+  Plugin 'tpope/vim-commentary'
+  Plugin 'tpope/vim-projectionist'
   Plugin 'tpope/vim-repeat'
   Plugin 'tpope/vim-surround'
-  Plugin 'scrooloose/nerdcommenter'
-  Plugin 'kana/vim-textobj-user'
-  Plugin 'Julian/vim-textobj-variable-segment'
-  Plugin 'kana/vim-textobj-line'
-  Plugin 'thinca/vim-textobj-between'
   Plugin 'tpope/vim-unimpaired'
-  Plugin 'sjl/gundo.vim'
-  Plugin 'godlygeek/tabular'
-  Plugin 'scrooloose/syntastic'
   Plugin 'vim-airline/vim-airline'
   Plugin 'vim-airline/vim-airline-themes'
-  Plugin 'ervandew/supertab'
-  Plugin 'nertzy/j-split'
-  Plugin 'matt-royal/diffthese'
-  Plugin 'nertzy/edit-plus'
-  Plugin 'brysgo/quickfixfix'
-  Plugin 'Lokaltog/vim-easymotion'
-  Plugin 'regreplop.vim'
-  Plugin 'Peeja/insert_mode_background_color'
-  Plugin 'vim-scripts/L9'
-  Plugin 'Peeja/vim-cdo'
-  Plugin 'MarcWeber/vim-addon-mw-utils'
-  Plugin 'tomtom/tlib_vim'
-  Plugin 'garbas/vim-snipmate'
-  Plugin 'honza/vim-snippets'
-  Plugin 'YankRing.vim'
-  Plugin 'terryma/vim-multiple-cursors'
-  Plugin 'editorconfig/editorconfig-vim'
-  Plugin 'tpope/vim-projectionist'
-  Plugin 'kien/rainbow_parentheses.vim'
 
   "
   " Window Management
@@ -94,35 +63,34 @@ else
   "
   " Searching
   "
-  Plugin 'mileszs/ack.vim'
   Plugin 'epmatsw/ag.vim'
-  Plugin 'tpope/vim-abolish'
   Plugin 'henrik/vim-qargs'
-  " Plugin 'kien/ctrlp.vim'
+  Plugin 'mileszs/ack.vim'
+  Plugin 'tpope/vim-abolish'
 
   "
   " Navigation
   "
-  Plugin 'scrooloose/nerdtree'
   Plugin 'majutsushi/tagbar'
+  Plugin 'scrooloose/nerdtree'
 
   "
   " Languages
   "
-  Plugin 'vim-ruby/vim-ruby'
+  Plugin 'elzr/vim-json'
+  Plugin 'guns/vim-clojure-static'
+  Plugin 'leafgarland/typescript-vim'
   Plugin 'pangloss/vim-javascript'
   Plugin 'plasticboy/vim-markdown'
-  Plugin 'guns/vim-clojure-static'
-  Plugin 'elzr/vim-json'
-  Plugin 'leafgarland/typescript-vim'
+  Plugin 'vim-ruby/vim-ruby'
 
   "
   " Development Tool Integration
   "
-  Plugin 'tpope/vim-fugitive'
   Plugin 'airblade/vim-gitgutter'
   Plugin 'pivotal/tmux-config'
   Plugin 'tpope/vim-dispatch'
+  Plugin 'tpope/vim-fugitive'
 
   call vundle#end()
 
