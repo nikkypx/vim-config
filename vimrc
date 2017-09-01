@@ -45,7 +45,6 @@ else
   Plugin 'easymotion/vim-easymotion'
   Plugin 'brysgo/quickfixfix'
   Plugin 'godlygeek/tabular'
-  Plugin 'regreplop.vim'
   Plugin 'scrooloose/syntastic'
   Plugin 'tpope/vim-commentary'
   Plugin 'tpope/vim-projectionist'
@@ -56,16 +55,9 @@ else
   Plugin 'vim-airline/vim-airline-themes'
 
   "
-  " Window Management
-  "
-  Plugin 'ZoomWin'
-
-  "
   " Searching
   "
   Plugin 'epmatsw/ag.vim'
-  Plugin 'henrik/vim-qargs'
-  Plugin 'mileszs/ack.vim'
   Plugin 'tpope/vim-abolish'
 
   "
