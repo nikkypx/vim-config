@@ -66,9 +66,6 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [rainbow-parentheses](https://github.com/kien/rainbow_parentheses.vim) highlights nested parentheses, brackets, and curly braces with differing colors so you can match them up more easily.
   * Use `,rp` to toggle rainbow parenthesis mode in the current file. By default it is off.
 
-## Window Management
-* [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
-
 ## Searching
 * [ack](https://github.com/mileszs/ack.vim) lets you shell out to ack within vim using `:Ack pattern [directory]`.  By default, results show up in the quickfix window.  You can use `:AckAdd` to append to the quickfix window or prefix 'Ack' with an 'L' to use the location list (just like `:grep`'s siblings).
 * [ag](https://github.com/epmatsw/ag.vim) is the above but for ag ([a faster ack replacement](https://github.com/ggreer/the_silver_searcher))
@@ -82,72 +79,3 @@ lets you view and cycle through your previous copy and paste registers on the fl
 ## Navigation
 * [nerdtree](https://github.com/scrooloose/nerdtree) puts a directory tree on the left side of the screen.  Press `\` to open it at your project root, or `Shift-\` to open it with the current file selected.  You can press `m` to move, delete, or create files.  Press `?` inside the tree to get more help.
 * [tagbar](http://majutsushi.github.io/tagbar/) puts ctags for the current file in a pane on the right.  Make sure [ctags](http://ctags.sourceforge.net/) is installed and then do `:TagbarToggle` to see them in vim.
-
-## Development Tool Integration
-* [vim-fugitive](https://github.com/tpope/vim-fugitive) puts git into vim.  It can do almost everything git related, some of the most useful features are:
-    * `:Gblame` to blame the current file.  Press enter on a commit to see the full commit.  Do `:Gedit` to go back to the current version (or just open it again).
-    * `:Gread` to check out the current file from git.  Very useful if you made some experimental changes that you want to get rid of.
-    * `:Gbrowse` to open the current file on GitHub, useful for sending links to other people.
-* [vim-gitgutter](https://github.com/airblade/vim-gitgutter) puts + and - signs in the gutter to show you what's changed in your working tree.  Use `[h` and `]h` to navigate between modified hunks. This plugin can slow down vim, so remove it if you're having problems.
-* [tmux-config](https://github.com/pivotal/tmux-config) integrates tmux with Vim.  It helps with autosave support and pasting your tmux buffer into vim.
-* [vim-dispatch](https://github.com/tpope/vim-dispatch) supplies `:Make` and `:Make!` which run in the background instead of blocking like `:make`.
-* [ConqueTerm](http://code.google.com/p/conque/) lets your run interactive commands within vim.  Try `:ConqueTerm bash`.
-* [vitality.vim](https://github.com/sjl/vitality.vim) makes Vim play nicely with iTerm2 and tmux. It adds things like cursor change on insert mode and focus-lost detection for triggering auto-save.
-* [test_server](https://github.com/brysgo/test_server) lets you use F9 thru F12 to run specs and report the output in vim.
-* [vim-simple-bdd](https://github.com/mdelillo/vim-simple-bdd) generates method declarations from [simple_bdd](https://github.com/robb1e/simple_bdd) steps
-
-## Colorschemes
-* [Vivid Chalk](https://github.com/tpope/vim-vividchalk)
-* [Molokai](https://github.com/tomasr/molokai)
-* [Solarized](http://ethanschoonover.com/solarized) ([github](https://github.com/altercation/vim-colors-solarized))
-* [ir_black](https://github.com/wesgibbs/vim-irblack)
-* [tomorrow](https://github.com/chriskempson/vim-tomorrow-theme)
-* [candycode](http://www.vim.org/scripts/script.php?script_id=1635)
-* Color-Sampler-Pack
-* [colorschemes](https://github.com/flazz/vim-colorschemes)
-* [base16](https://github.com/chriskempson/base16-vim)
-* [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
-
-## Languages
-* [vim-ruby](https://github.com/vim-ruby/vim-ruby)
-* [vim-javascript](https://github.com/pangloss/vim-javascript)
-* [vim-markdown](https://github.com/plasticboy/vim-markdown)
-* [vim-slim](https://github.com/slim-template/vim-slim)
-* [vim-handlebars](https://github.com/nono/vim-handlebars)
-* [vim-coffee-script](https://github.com/kchmck/vim-coffee-script)
-* [vim-haml](https://github.com/tpope/vim-haml)
-* [vim-cucumber](https://github.com/tpope/vim-cucumber)
-* [vim-cucumber-align-pipes](https://github.com/quentindecock/vim-cucumber-align-pipes)
-* [mustache.vim](https://github.com/juvenn/mustache.vim)
-* [vim-go](https://github.com/fatih/vim-go)
-* [scala-vim-support](https://github.com/rosstimson/scala-vim-support)
-* [vim-clojure-static](https://github.com/guns/vim-clojure-static)
-* [csv.vim](https://github.com/chrisbra/csv.vim)
-* [vim-elixir](https://github.com/elixir-lang/vim-elixir)
-* [vim-json](https://github.com/elzr/vim-json)
-* [vim-jst](https://github.com/briancollins/vim-jst)
-* [vim-jade](https://github.com/digitaltoad/vim-jade)
-* [vim-pug](https://github.com/digitaltoad/vim-pug)
-* [vim-jsx](https://github.com/mxw/vim-jsx)
-* [elm.vim](https://github.com/lambdatoast/elm.vim)
-* [vim-concourse](https://github.com/luan/vim-concourse)
-
-# Advanced
-
-## Updating manually
-
-First, fetch the latest vim-config via Git. You can also rebase or merge your
-own project-specific customizations.
-
-To install the necessary bundles:
-
-    vim +PluginInstall +qall # or run :PluginInstall within Vim
-
-To upgrade bundles to their latest version, use the bang version:
-
-    vim +PluginInstall! +qall # or run :PluginInstall! within Vim
-
-## tmux support (optional)
-
-If you will be using VIM with tmux for remote pairing or window management, see
-the [pivotal/tmux-config README](https://github.com/pivotal/tmux-config).
