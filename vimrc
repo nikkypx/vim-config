@@ -30,6 +30,7 @@ else
   " Colorschemes
   "
   Plugin 'flazz/vim-colorschemes'
+  Plugin 'jonathanfilip/lucius'
 
   "
   " Ruby / Rails
