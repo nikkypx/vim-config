@@ -46,7 +46,6 @@ else
   Plugin 'easymotion/vim-easymotion'
   Plugin 'brysgo/quickfixfix'
   Plugin 'godlygeek/tabular'
-  Plugin 'scrooloose/syntastic'
   Plugin 'tpope/vim-commentary'
   Plugin 'tpope/vim-projectionist'
   Plugin 'tpope/vim-repeat'
@@ -54,6 +53,8 @@ else
   Plugin 'tpope/vim-unimpaired'
   Plugin 'vim-airline/vim-airline'
   Plugin 'vim-airline/vim-airline-themes'
+  Plugin 'luochen1990/rainbow'
+  Plugin 'vim-scripts/paredit.vim'
 
   "
   " Searching
