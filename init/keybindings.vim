@@ -2,20 +2,12 @@
 " -----------
 
 let mapleader = ","
-let maplocalleader = ";"
-
-" Gracefully handle holding shift too long after : for common commands
-cabbrev W w
-cabbrev Q q
-cabbrev Wq wq
-cabbrev Tabe tabe
-cabbrev Tabc tabc
+let maplocalleader="\\"
+inoremap jk <esc>`^
 
 "set pastetoggle keybinding
 set pastetoggle=<F2>
 
-" Make Y consistent with D and C
-map Y           y$
 
 " Search
 nmap <leader>s  :%s/
@@ -145,19 +137,19 @@ nnoremap <silent> <D-P> :ClearCtrlPCache<cr>
 " Idea from : http://www.charlietanksley.net/blog/blog/2011/10/18/vim-navigation-with-lustyexplorer-and-lustyjuggler/
 " Open CtrlP starting from a particular path, making it much
 " more likely to find the correct thing first. mnemonic 'jump to [something]'
-map <leader>jm :CtrlP app/models<CR>
-map <leader>jc :CtrlP app/controllers<CR>
-map <leader>jv :CtrlP app/views<CR>
-map <leader>jh :CtrlP app/helpers<CR>
-map <leader>jl :CtrlP lib<CR>
-map <leader>jp :CtrlP public<CR>
-map <leader>js :CtrlP spec<CR>
-map <leader>jf :CtrlP fast_spec<CR>
-map <leader>jd :CtrlP db<CR>
-map <leader>jC :CtrlP config<CR>
-map <leader>jV :CtrlP vendor<CR>
-map <leader>jF :CtrlP factories<CR>
-map <leader>jT :CtrlP test<CR>
+" map <leader>jm :CtrlP app/models<CR>
+" map <leader>jc :CtrlP app/controllers<CR>
+" map <leader>jv :CtrlP app/views<CR>
+" map <leader>jh :CtrlP app/helpers<CR>
+" map <leader>jl :CtrlP lib<CR>
+" map <leader>jp :CtrlP public<CR>
+" map <leader>js :CtrlP spec<CR>
+" map <leader>jf :CtrlP fast_spec<CR>
+" map <leader>jd :CtrlP db<CR>
+" map <leader>jC :CtrlP config<CR>
+" map <leader>jV :CtrlP vendor<CR>
+" map <leader>jF :CtrlP factories<CR>
+" map <leader>jT :CtrlP test<CR>
 
 "Cmd-Shift-(M)ethod - jump to a method (tag in current file)
 "Ctrl-m is not good - it overrides behavior of Enter
@@ -181,14 +173,18 @@ nmap <leader>l :TagbarToggle<CR>
 " Cmd-Shift-F searches the whole project (like in TextMate, RubyMine, etc.)
 map <D-F> :Ag<Space>
 
-" YankRing show registers
-:nnoremap <silent> <F6> :YRShow<CR>
-
 " Convert a word to to let(:word) { double(:word) }
 nmap <leader>ld <Plug>LocalMakelet
 
-nmap <leader>rp :RainbowParenthesesToggle<CR>
+nnoremap <C-h> :tabprevious<CR>
+nnoremap <C-l> :tabnext<CR>
+nnoremap <C-t> <Esc>:tabnew<CR>
 
-" Convert simple_bdd steps into methods
-nnoremap <leader>bdd :SimpleBDD<CR>
-vnoremap <leader>bdd :SimpleBDD<CR>
+abbrev des describe
+abbrev bpry require 'pry'; binding.pry
+
+set t_Co=256
+
+set noswapfile
+set wildmode=longest,list
+set wildmenu

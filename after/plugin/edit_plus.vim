@@ -1,42 +1,30 @@
 " Disable override of standard "e" command
 silent! una e
 
-let mapleader=","
-let maplocalleader="\\"
-inoremap jk <esc>`^
-inoremap <c-[> <nop>
+" inoremap <c-[> <nop>
 
-set tabstop=2
+" set tabstop=2
 
-"number of spaces for insert mode
-set softtabstop=2
+" "number of spaces for insert mode
+" set softtabstop=2
 
-"number of spaces for each step of auto indent
-set shiftwidth=2
+" "number of spaces for each step of auto indent
+" set shiftwidth=2
 
-"spaces in place of tab characters in insert mode
-set expandtab
+" "spaces in place of tab characters in insert mode
+" set expandtab
 
-set nowrap
+" set nowrap
 
-set nu
+" set nu
 
-set ignorecase
-set incsearch
-set autoread
+" set ignorecase
+" set incsearch
+" set autoread
 
-let g:markdown_fenced_languages = ['html', 'vim', 'ruby', 'python', 'bash=sh']
+" let g:markdown_fenced_languages = ['html', 'vim', 'ruby', 'python', 'bash=sh']
 
-set t_Co=256
 
-set wildmode=longest,list
-set wildmenu
 
-abbrev des describe
-abbrev bpry require 'pry'; binding.pry
 
-nnoremap <C-h> :tabprevious<CR>
-nnoremap <C-l> :tabnext<CR>
-nnoremap <C-t> <Esc>:tabnew<CR>
 
-set noswapfile

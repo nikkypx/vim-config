@@ -17,9 +17,6 @@ autocmd BufWritePre *.rb,*.yml,*.js,*.css,*.less,*.sass,*.scss,*.html,*.xml,*.er
 " Java, PHP
 autocmd BufWritePre *.java,*.php call StripTrailingWhitespace()
 
-" Haml
-au BufRead,BufNewFile *.hamlc set ft=haml
-
 " JavaScript, ECMAScript
 au BufRead,BufNewFile *.es6 set ft=javascript
 
