@@ -1,5 +1,6 @@
 " Disable override of standard "e" command
 silent! una e
+set noswapfile
 
 " inoremap <c-[> <nop>
 

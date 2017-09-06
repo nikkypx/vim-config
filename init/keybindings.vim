@@ -185,6 +185,5 @@ abbrev bpry require 'pry'; binding.pry
 
 set t_Co=256
 
-set noswapfile
 set wildmode=longest,list
 set wildmenu
