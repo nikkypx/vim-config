@@ -5,10 +5,6 @@ let mapleader = ","
 let maplocalleader="\\"
 inoremap jk <esc>`^
 
-"set pastetoggle keybinding
-set pastetoggle=<F2>
-
-
 " Search
 nmap <leader>s  :%s/
 vmap <leader>s  :s/
@@ -17,10 +13,6 @@ vmap <leader>s  :s/
 map <leader>v   :vsp<CR>
 
 " Move between screens
-map <leader>w   ^Ww
-map <leader>=   ^W=
-map <leader>j   ^Wj
-map <leader>k   ^Wk
 nmap <C-j>      <C-w>j
 nmap <C-k>      <C-w>k
 nmap <C-h>      <C-w>h

@@ -61,13 +61,11 @@ else
   Plugin 'leafgarland/typescript-vim'
   Plugin 'pangloss/vim-javascript'
   Plugin 'plasticboy/vim-markdown'
-  Plugin 'vim-ruby/vim-ruby'
 
   "
   " Development Tool Integration
   "
   Plugin 'airblade/vim-gitgutter'
-  Plugin 'pivotal/tmux-config'
   Plugin 'tpope/vim-dispatch'
   Plugin 'tpope/vim-fugitive'
 
