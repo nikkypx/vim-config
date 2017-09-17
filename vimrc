@@ -23,7 +23,6 @@ else
   Plugin 'tpope/vim-endwise'
   Plugin 'tpope/vim-rails'
   Plugin 'tpope/vim-rake'
-  Plugin 'tpope/vim-rbenv'
 
   "
   " General Editing
@@ -32,7 +31,6 @@ else
   Plugin 'brysgo/quickfixfix'
   Plugin 'godlygeek/tabular'
   Plugin 'tpope/vim-commentary'
-  Plugin 'tpope/vim-projectionist'
   Plugin 'tpope/vim-repeat'
   Plugin 'tpope/vim-surround'
   Plugin 'tpope/vim-unimpaired'
@@ -45,12 +43,10 @@ else
   " Searching
   "
   Plugin 'epmatsw/ag.vim'
-  Plugin 'tpope/vim-abolish'
 
   "
   " Navigation
   "
-  Plugin 'majutsushi/tagbar'
   Plugin 'scrooloose/nerdtree'
 
   "
