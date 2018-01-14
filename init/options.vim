@@ -61,3 +61,6 @@ let g:sql_type_default="postgresql"
 if has("gui_running")
   set noballooneval
 endif
+
+highlight ColorColumn ctermbg=gray
+set colorcolumn=80
