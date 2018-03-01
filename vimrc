@@ -52,7 +52,6 @@ else
   "
   " Languages
   "
-  Plugin 'elzr/vim-json'
   Plugin 'guns/vim-clojure-static'
   Plugin 'leafgarland/typescript-vim'
   Plugin 'pangloss/vim-javascript'
