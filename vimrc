@@ -10,6 +10,11 @@ else
   call vundle#begin()
 
   Plugin 'VundleVim/Vundle.vim'
+  
+  "
+  " Fuzzy Finder
+  "
+  Plugin 'wincent/command-t'
 
   "
   " Colorschemes
