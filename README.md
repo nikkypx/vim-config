@@ -1,6 +1,6 @@
-# Vim-config
+# vim-config
 
-> Vim configuration using Vundle
+> Vim configuration using Vundle, a modified fork from Pivotal Labs
 
 ## Installation
 (Re)move ~/.vim and ~/.vimrc if you have them already, and run:
