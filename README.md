@@ -11,7 +11,7 @@ $ git clone https://github.com/nikkypx/vim-config.git ~/.vim && ~/.vim/bin/insta
 
 ## Command-T
 ```bash
-$ cd .vim/bundle/command-t/ruby/command-t/ext/command-t
+$ cd ~/.vim/bundle/command-t/ruby/command-t/ext/command-t
 $ rbenv local system
 $ ruby extconf.rb
 $ make
