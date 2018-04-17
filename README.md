@@ -1,6 +1,6 @@
 # Vim-config
 
-> Vim configuration tailored towards ruby development
+> Vim configuration using Vundle
 
 ## Installation
 (Re)move ~/.vim and ~/.vimrc if you have them already, and run:
