@@ -61,6 +61,7 @@ else
   Plugin 'leafgarland/typescript-vim'
   Plugin 'pangloss/vim-javascript'
   Plugin 'plasticboy/vim-markdown'
+  Plugin 'wlangstroth/vim-racket.git'
 
   "
   " Development Tool Integration
