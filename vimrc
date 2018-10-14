@@ -21,6 +21,7 @@ else
   "
   Plugin 'flazz/vim-colorschemes'
   Plugin 'jonathanfilip/lucius'
+  Plugin 'ajh17/Spacegray.vim'
 
   "
   " Ruby / Rails
