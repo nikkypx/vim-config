@@ -125,6 +125,9 @@ nnoremap <silent> <D-P> :ClearCtrlPCache<cr>
 "Ctrl-m is not good - it overrides behavior of Enter
 nnoremap <silent> <D-M> :CtrlPBufTag<CR>
 
+" Insert a hash rocket with <c-l>
+imap <c-l> <space>=><space>
+
 " Mappings inherited from FuzzyFinder
 map <leader><C-N> :CtrlPCurWD<CR>
 map <leader>n :CtrlPCurWD<CR>
