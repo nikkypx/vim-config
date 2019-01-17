@@ -17,11 +17,13 @@ set shiftwidth=2                   " Width of autoindent
 set number                         " Line numbers
 set nowrap                         " No wrapping
 set backspace=indent,eol,start     " Let backspace work over anything.
-set wildignore+=tags               " Ignore tags when globbing.
-set wildignore+=tmp/**             " ...Also tmp files.
-set wildignore+=public/uploads/**  " ...Also uploads.
-set wildignore+=public/images/**   " ...Also images.
-set wildignore+=vendor/**          " ...Also vendor.
+
+set wildignore+=tags               
+set wildignore+=tmp/**             
+set wildignore+=public/uploads/**  
+set wildignore+=public/images/**   
+set wildignore+=vendor/**          
+set wildignore+=node_modules       
 
 set list                           " Show whitespace
 set listchars=trail:·
