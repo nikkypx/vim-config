@@ -10,6 +10,9 @@ $ git clone https://github.com/nikkypx/vim-config.git ~/.vim && ~/.vim/bin/insta
 ```
 
 ## Command-T
+
+Steps with rbenv
+
 ```bash
 $ cd ~/.vim/bundle/command-t/ruby/command-t/ext/command-t
 $ rbenv local (vim version of ruby)
