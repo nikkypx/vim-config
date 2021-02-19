@@ -14,7 +14,8 @@ else
   "
   " Fuzzy Finder
   "
-  Plugin 'wincent/command-t'
+  Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plugin 'junegunn/fzf.vim'
 
   "
   " Colorschemes

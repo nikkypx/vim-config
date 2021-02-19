@@ -9,6 +9,9 @@ inoremap jk <esc>`^
 nmap <leader>s  :%s/
 vmap <leader>s  :s/
 
+" Fuzzy Search
+nmap <leader>t  :Files<CR>
+
 " Split screen
 map <leader>v   :vsp<CR>
 
